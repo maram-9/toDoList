@@ -16,6 +16,6 @@ https://maram-9.github.io/toDoList/
 - JS
 - CSS
 - BEM
-- ES+6 features
+- ES6+ features
 - Grid layout
 - @media queries
