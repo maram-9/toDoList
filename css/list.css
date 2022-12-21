@@ -5,7 +5,6 @@
     grid-gap: 20px;
     border-bottom: 2px solid #ddd;
     align-items: center;
-
 }
 
 .list__taskName {
@@ -28,6 +27,7 @@
     background-color: red;
     border: 1px;
 }
+
 .list__button:hover {
     background-color: hsl(348, 83%, 57%);
 }
