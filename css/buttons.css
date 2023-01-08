@@ -11,8 +11,10 @@
     transition: color 0.3s;
 }
 
-@media(max-width:767) {
+@media (max-width: 767px) {
     .buttons__button {
+        display: grid;
+        justify-items: center;
         flex-basis: 100%;
         margin: 10px;
     }
