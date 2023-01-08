@@ -1,50 +1,30 @@
 .section {
     margin: 10px;
     background-color: white;
+    box-shadow: 0 0 5px #ddd;
 }
 
-.section__name {
-    padding: 20px;
-    margin: 0;
-}
-
-.section__content {
-    border-top: 2px solid #ddd;
-    padding: 20px;
-}
-
-.section__form {
+.section__header {
+    border-bottom: 1px solid #ddd;
     display: grid;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: auto auto;
     grid-gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
 
 @media (max-width: 767px) {
-    .section__form {
+    .section__header {
         grid-template-columns: 1fr;
     }
 }
 
-.section__input {
-    padding: 10px;
-    border: 1px solid #ddd;
+.section__body {
+    padding: 20px;
 }
 
-.section__addButton {
-    padding: 10px;
-    background-color: hsl(180, 100%, 25%);
-    color: white;
-    border: 1px;
-}
-
-.section__addButton:hover {
-    background-color: hsl(180, 100%, 35%);
-}
-
-.section__addButton:active {
-    background-color: hsl(180, 100%, 45%);
-}
-
-.section__list {
-    padding-left: 0;
+.section__title {
+    font-size: 20px;
+    margin: 0;
 }
